@@ -5,3 +5,5 @@ I used ServiceNow Service Operations Workspace to handle a simulated Tier 1 supp
 In the scenario, `ipconfig /all` showed a self-assigned `169.254.x.x` address and no default gateway. Testing with a known-good jack, laptop, and cable isolated the failure to the original jack’s network path. I recorded the findings in internal work notes and routed the incident to the Network group.
 
 I documented the simulated switchport VLAN correction and the verification steps: confirm a valid DHCP lease and default gateway, then test internet and shared-drive access on the original jack. I marked the incident **Resolved – Permanent Fix Applied**.
+
+<img width="2048" height="1943" alt="incident-resolved" src="https://github.com/user-attachments/assets/abf4f232-380b-4397-9771-959ff658525e" />
